@@ -23,7 +23,7 @@ public class ImageInputOutput {
 		//creating variables to be used
 		BufferedImage img = null;
 		
-		JFileChooser reader = new JFileChooser("C:\\Users\\Andrew\\Desktop");
+		JFileChooser reader = new JFileChooser("Image Processing/Images/JudgexSoto.jpg");
 		
 		reader.setFileFilter(new PictureFilter());
 		
@@ -48,7 +48,7 @@ public class ImageInputOutput {
 	 * @throws IOException if Image cannot be written to file
 	 */
 	public static void writeImage(Gui gui, BufferedImage picture) {
-		JFileChooser reader = new JFileChooser("C:\\Users\\Andrew\\Desktop");
+		JFileChooser reader = new JFileChooser("Image Processing/Images/JudgexSoto.jpg");
 		reader.setFileFilter(new PictureFilter());
 		
 		int value = reader.showSaveDialog(gui);
