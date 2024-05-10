@@ -23,7 +23,7 @@ public class ImageInputOutput {
 		//creating variables to be used
 		BufferedImage img = null;
 		
-		JFileChooser reader = new JFileChooser("Image Processing/Images/JudgexSoto.jpg");
+		JFileChooser reader = new JFileChooser("Image Processing/Images/Avengers-Age-of-Ultron-Joss-Whedon.png 23-19-50-112.png");
 		
 		reader.setFileFilter(new PictureFilter());
 		
